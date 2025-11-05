@@ -213,11 +213,7 @@ overflow: hidden;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
-img {
-  display: block;
-  max-width: 100%;
-    height: auto;
-}
+
 
 .team {
     background-color: #F4F4FD;
