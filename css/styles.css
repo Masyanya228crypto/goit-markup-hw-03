@@ -37,7 +37,6 @@ img {
 
 .header-container {
      display: flex;
-    width: 1158px;
     margin: 0 auto;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -123,12 +122,12 @@ img {
 
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0    ;
 }
 .container-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 188px 0;
     text-align: center;
     
 }
@@ -158,6 +157,13 @@ img {
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    border: none;
+}
+
+.benefits-com {
+    background-color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .button:hover {
@@ -170,6 +176,7 @@ img {
 
 .benefits {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 .visually-hidden  {
 position: absolute;
@@ -188,6 +195,7 @@ overflow: hidden;
     padding: 120px 0;
     justify-content: center;
     background-color: #FFFFFF;
+    gap: 24px;
 }
 
 .benefits-title {
@@ -205,7 +213,6 @@ overflow: hidden;
     color: #434455;
     line-height: 24px;
     letter-spacing: 0.02em;
-    gap: 24px;
 }
 img {
   display: block;
